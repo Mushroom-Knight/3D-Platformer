@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Slime
   - weak point
+  - coin
   layers:
   - Default
   - TransparentFX

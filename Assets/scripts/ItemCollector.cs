@@ -1,16 +1,23 @@
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class ItemCollector : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    int coins = 0;
+
+    [SerializeField] TMP_Text coinsText;
+
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.gameObject.CompareTag("coin"))
+        {
+            Destroy(other.gameObject);
+            coins++;
+            Debug.Log("yummers" + coins);
+            coinsText.text = "points: " + coins;
+        }
     }
 }
+
