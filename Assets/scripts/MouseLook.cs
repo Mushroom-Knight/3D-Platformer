@@ -5,6 +5,8 @@ public class MouseLook : MonoBehaviour
 
     [SerializeField] float mouseSensitivity = 2f;
     [SerializeField] Transform playerCamera;
+    [SerializeField] float maxView = 60f;
+    [SerializeField] float minView = -60f;
 
     float xRotation = 0f;
 
@@ -24,7 +26,7 @@ public class MouseLook : MonoBehaviour
 
         // Tilt, but never past straight up or down
         xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        xRotation = Mathf.Clamp(xRotation, minView, maxView);
     }
 
 
