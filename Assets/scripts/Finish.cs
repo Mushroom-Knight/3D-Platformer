@@ -2,5 +2,11 @@ using UnityEngine;
 
 public class Finish : MonoBehaviour
 {
-    ontrigg
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other .gameObject . name =="your ugly mug")
+        {
+
+        }
+    }
 }
