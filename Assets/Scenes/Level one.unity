@@ -2281,7 +2281,18 @@ PrefabInstance:
       value: CharacterUVed
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2040542448765327740, guid: 5094aa6c52f7ce246affa88d2d216a8d, type: 3}
+    - {fileID: 7750397243111347764, guid: 5094aa6c52f7ce246affa88d2d216a8d, type: 3}
+    - {fileID: -3403155128824885820, guid: 5094aa6c52f7ce246affa88d2d216a8d, type: 3}
+    - {fileID: 1869004960016252962, guid: 5094aa6c52f7ce246affa88d2d216a8d, type: 3}
+    - {fileID: -7917291961305824890, guid: 5094aa6c52f7ce246affa88d2d216a8d, type: 3}
+    - {fileID: -5731229141766309534, guid: 5094aa6c52f7ce246affa88d2d216a8d, type: 3}
+    - {fileID: -2793727289926329592, guid: 5094aa6c52f7ce246affa88d2d216a8d, type: 3}
+    - {fileID: 1507767883509144192, guid: 5094aa6c52f7ce246affa88d2d216a8d, type: 3}
+    - {fileID: 3779745573541866595, guid: 5094aa6c52f7ce246affa88d2d216a8d, type: 3}
+    - {fileID: -3957782524123411102, guid: 5094aa6c52f7ce246affa88d2d216a8d, type: 3}
+    - {fileID: -8513424388201257645, guid: 5094aa6c52f7ce246affa88d2d216a8d, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5094aa6c52f7ce246affa88d2d216a8d, type: 3}
