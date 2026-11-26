@@ -27,6 +27,8 @@ public class MouseLook : MonoBehaviour
         // Tilt, but never past straight up or down
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, minView, maxView);
+
+        
     }
 
 
