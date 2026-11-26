@@ -5,7 +5,7 @@ using TMPro;
 public class ItemCollector : MonoBehaviour
 {
 
-    int coins = 0;
+    public int coins = 0;
 
     [SerializeField] TMP_Text coinsText;
 
